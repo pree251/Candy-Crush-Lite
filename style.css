@@ -1,0 +1,77 @@
+.grid {
+  width: 560px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  height: 92vh;
+}
+
+.grid div {
+  height: 70px;
+  width: 70px;
+}
+
+body,
+html {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  right: 8%;
+  transform: translate(0, -50%);
+  font-family: "Emilys Candy", serif;
+  color: rgb(255, 255, 255);
+}
+
+#score-title {
+  font-family: "Emilys Candy", serif;
+  font-size: 30px;
+  color: rgb(255, 0, 200);
+}
+
+#toggleButton {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #fff;
+  background-color: #ff00aa;
+  padding: 10px 20px;
+  border: solid #ffeecb 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 25px;
+  transition: 904ms;
+  transform: translateY(0);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+#toggleButton:hover {
+  transition: 904ms;
+  padding: 10px 20px;
+  transform: translateY(-0px);
+  background-color: #ffeecb;
+  color: #0066cc;
+  border: solid 2px #ff00aa;
+}
+
+.dragged {
+  opacity: 1; /* or any other styling you prefer */
+}
+
+footer {
+  text-align: center;
+  color: rgb(255, 0, 200);
+}
