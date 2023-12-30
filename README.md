@@ -1,6 +1,8 @@
 # Candy-Crush-Lite
 Embark on a sweet and addictive puzzle adventure with my lite version of Candy Crush! Swap and match colorful candies to create mouth-watering combinations. Enjoy the delightful graphics and satisfying gameplay of this candy-matching extravaganza. It's a treat for puzzle enthusiasts who love a casual and engaging gaming experience!
 
+Try it out: https://pree251.github.io/Candy-Crush-Lite/
+
 ---
 
 ### TECH STACK USED: 
